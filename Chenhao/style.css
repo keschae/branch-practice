@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.front {
+  background: rgb(58, 58, 58) ;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.navbar {
+    background: rgb(80, 80, 80) ;
+    text-align: center;
+}
+
+.nav-link{
+    color: black;
+}
+
+.container {
+    
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+  }
+
+  .card-text {
+      color: black;
+  }
+
+  .section-content {
+    padding: 5rem 0;
+  }
