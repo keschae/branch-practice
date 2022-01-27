@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!--styling components. Didn't feel the need to create a whole external css-->
+  <style>
+    .no-js #loader {
+      display: none;
+    }
+    .js #loader {
+      display: block;
+      position: absolute;
+      left: 100px;
+      top: 0;
+    }
+    .se-pre-con {
+      position: fixed;
+      left: 0px;
+      top: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 9999;
+      background: url('images/spinner.gif') center no-repeat #ffff;
+    }
+  </style>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+  <!--jquery file-->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+
+  <!--Loading animation-->
+  <script>
+    $(window).on('load', function () {
+      // Animate loader off screen
+      $(".se-pre-con").show().delay(600).fadeOut();
+    });
+  </script>
+  <title>Lohmar Assignment1</title>
+</head>
+
+<body>
+  <div class="se-pre-con"></div>
+  <!--NAVBAR BEGIN-->
+  <nav class="navbar navbar-expand-sm navbar-light"
+    style="font-family: bebas; font-size: x-large; background-color: #6780C1">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo.png" width="120" height="32" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link text-light" href="interests.html">Interests</a>
+        <a class="nav-item nav-link text-light" href="gallery.html">Gallery</a>
+      </div>
+    </div>
+  </nav>
+  <!--NAVBAR END-->
+  <!--Cards begin-->
+  <div class="container" style="margin-top: 15px;">
+    <div class="row" style="padding-bottom: 15px;">
+
+      <div class="col-md-4" style="margin-top: 10px;">
+        <div class="card">
+          <img src="images/meFlying.jpg" class="card-img-top" alt="me flying a 172">
+          <div class="card-body">
+            <p class="card-text">Me flying one of my first cross countries in a C172!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" style="margin-top: 10px;">
+        <div class="card">
+          <img src="images/meSkiing.jpg" class="card-img-top" alt="...">
+          <!--<h4 class="card-header">Planting in the spring</h4>-->
+          <div class="card-body">
+            <p class="card-text">Me skiing in Breckenridge, CO this past winter break! It was a blast</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" style="margin-top: 10px;">
+        <div class="card">
+          <img src="images/meInColorado.jpeg" class="card-img-top" alt="...">
+          <!--<h4 class="card-header">Planting in the spring</h4>-->
+          <div class="card-body">
+            <p class="card-text">Me at my happiest in Colorado. Bury me on Breck Mountain!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" style="margin-top: 10px;">
+        <!-- Add your first card below: -->
+        <div class="card">
+          <img src="images/headshot.jpeg" class="card-img-top" alt="...">
+          <!--<h4 class="card-header">Planting in the spring</h4>-->
+          <div class="card-body">
+            <p class="card-text">This is my most recent headshot. It was taken for my highschool yearbook.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" style="margin-top: 10px;">
+        <div class="card">
+          <img src="images/JLBaseball.jpeg" class="card-img-top" alt="...">
+          <!--<h4 class="card-header">Planting in the spring</h4>-->
+          <div class="card-body">
+            <p class="card-text">A great photo my dad took of me playing baseball for the Rochester Rockets!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4" style="margin-top: 10px;">
+        <div class="card">
+          <img src="images/meanddad.JPG" class="card-img-top" alt="...">
+          <!--<h4 class="card-header">Planting in the spring</h4>-->
+          <div class="card-body">
+            <p class="card-text">A picture of me and my dad after I earned my private pilots license!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4" style="margin-top: 10px;">
+        <div class="card">
+          <img src="images/myC172.JPG" class="card-img-top" alt="...">
+          <!--<h4 class="card-header">Planting in the spring</h4>-->
+          <div class="card-body">
+            <p class="card-text">This is the plane that I learned how to fly in!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Cards end-->
+  <!--Footer begins-->
+  <footer class="bg-dark" style="height: 13%; position:static; width: 100%; bottom: 0px; padding-top: 15px;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 my-auto">
+          <h4 class="text-center text-white">This is my footer for jacklohmar.com</h4>
+        </div>
+        <div class="col-md-6 my-auto" style="font-family: 'bebas'; font-size: larger;">
+          <a class="nav-item nav-link active text-light" href="index.html">Home<span
+              class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link text-light" href="interests.html">Interests</a>
+          <a class="nav-item nav-link text-light" href="gallery.html">Gallery</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
