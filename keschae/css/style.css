@@ -1,0 +1,75 @@
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background: rgb(32, 36, 41);
+    color: white;
+}
+  
+footer p {
+    margin-bottom: .25rem;
+}
+
+#stage {
+    background: url('../img/familyfav.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#stage-caption {
+    font-size: 1.4rem;
+    font-weight: 200;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#stage-caption h1 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card-wrapper {
+    padding-top: 2rem;
+}
+
+.separate-dark {
+    background: rgb(32, 36, 41);
+    color: white;
+}
+
+.about-section {
+    padding: 4rem;
+}
+
+.hobbies {
+    background: rgb(235, 213, 88);
+}
+
+.techexperience {
+    background: rgb(216, 198, 219);
+}
+
+.spacing {
+    padding: 4rem 0;
+}
+
+@media screen and ( min-width: 991px ) {
+    .about-section .row {
+        display: flex;
+        align-items: center;
+    }
+}
