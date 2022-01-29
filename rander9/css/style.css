@@ -1,0 +1,59 @@
+#familyPhoto {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  padding: 1%;
+  margin: 1%;
+  padding-bottom: 0;
+  border-radius: 8px;
+}
+.allCards {
+  display: flex;
+  flex: auto;  
+}
+
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 120%;
+}
+ 
+body {
+background-color: gray;
+}
+
+#navBar {
+  padding: 18px 16px;
+  background-color: rgb(48, 48, 48);
+}
+
+a {
+  color: white;
+  padding: 6px;
+  margin: 8px;
+  background-color: rgb(95, 95, 95);
+  border-radius: 4px;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.card-img-top {
+  width: auto;
+}
+
+h2 {
+  margin: 10px;
+}
+
+@media (max-width: 800px) {
+  
+.disappearing {
+  display: none;
+}
+
+}
